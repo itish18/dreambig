@@ -1,0 +1,269 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 2px 0px rgb(0, 0, 0,0.4);
+}
+
+.navHeading{
+    font-size: 1.4rem;
+}
+
+.navHeading>span{
+    color: rgba(0, 0, 255, 0.479);
+}
+
+.linkList,.btnList{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    padding: 0px;
+}
+
+.btnList{
+    gap: 2rem;
+}
+
+.linkOne, .linkTwo{
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.linkOne:hover,.linkTwo:hover{
+    color: rgba(0, 60, 255, 0.582);
+}
+
+.signBtn,.loginBtn{
+    padding: 0.6rem 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.signBtn{
+    border-radius: 0.3rem;
+}
+
+.loginBtn{
+    background-color: rgba(0, 60, 255, 0.192);
+    border-radius: 0.3rem;
+}
+
+.loginBtn:hover{
+    background-color: rgba(0, 60, 255, 0.37);
+}
+
+.signBtn:hover{
+    color: rgba(0, 60, 255, 0.37);
+    background:rgba(0, 60, 255, 0.01);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container{
+    width: 60%;
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        width: auto;
+    }
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 0rem;
+}
+
+.miniBox{
+    display: flex;
+}
+
+
+
+.leftSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  
+   
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   gap: 6rem;
+    
+}
+
+
+
+.smallTitle{
+    font-size: 1rem;
+    font-weight: 700;
+    color: grey;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.details{
+    display: flex;
+flex-direction: column;
+gap: 0.8rem;
+}
+
+.desc{
+    color: rgba(128, 128, 128, 0.685);
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.rating{
+    font-weight: 500;
+}
+
+.loginButton{
+    width: fit-content;
+    padding: 0.9rem 1.5rem;
+    background: rgba(14, 68, 248, 0.295);
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background: rgba(14, 69, 248, 0.466);
+}
+
+.minorDetails{
+    margin-top: 3rem;
+    color: grey;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.gapLine{
+    width: 2px;
+    height: 1.5rem;
+    background: grey;
+}
+
+.rightSidePrice{
+    display: flex;
+    flex: 1;
+    position: relative;
+    
+}
+
+.skillBox{
+   height: fit-content;
+    position: sticky;
+    top:0px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.192);
+    border-radius: 8px;
+    padding:1rem;
+    margin-left: 7rem;
+}
+
+@media screen and (max-width:768px) {
+    .skillBox{
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .navHeading{
+        font-size: 1.1rem;
+       
+    }
+
+    .linkList{
+        display: none;
+    }
+
+    .btnList{
+        gap: 5px;
+    }
+
+    .signBtn,.loginBtn{
+        font-size:0.9rem;
+    }
+    .miniBox{
+       flex-direction: column;
+     }
+
+     .rightSidePrice{
+    margin-top: 6rem;
+     }
+    .skillBox{
+       position:relative;
+       margin: 0px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .signBtn,.loginBtn{
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+.skillList{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 400;
+}
+
+.skillList>li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+
+.overviewContent{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+
+.courseSection,.reviewSection{
+    padding: 1.5rem;
+    margin-top: 6rem;
+}
+

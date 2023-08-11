@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 2rem;
+
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev,.next{
+    color: rgba(0, 0, 255, 0.425);
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
